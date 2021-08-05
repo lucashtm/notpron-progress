@@ -8,4 +8,6 @@ for c in word:
     i = alph.find(c)
     if i >= 0:
         inverted.append(alph[len(alph)-1-i])
+    else:
+        inverted.append(c)
 print(''.join(inverted))
